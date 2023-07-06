@@ -20,7 +20,8 @@
 
 .navbar__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 250px;
     height: 80px;
     z-index: 1;
     width: 100%;
@@ -30,7 +31,7 @@
 }
 
 #navbar__logo {
-    background-color: #99ff00;
+   background-color: #99ff00;
    background-image: linear-gradient(to top, #88ff00 0%, #cff9ad 100% );
    background-size: 100%;
    -webkit-background-clip: text;
@@ -43,4 +44,3 @@
    text-decoration: none;
    font-size: 2rem;
 }
-//comentario 
